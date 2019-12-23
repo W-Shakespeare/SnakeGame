@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  height: 100vh;
+  /* background-image: url(http://ysia.ru/wp-content/uploads/2018/08/MGK_4-1.jpg); */
+  background-image: url(https://i.pinimg.com/originals/e3/3f/14/e33f1499caedcd3a2ab5df38af8c4224.jpg);
+  /* background-image: url(http://w4.wallls.com/uploads/high-thumbnail/201605/04/112942.jpg); */
+
+  /* background-image: url(http://stoloboi.ru/images/abstrakt/abstrakt-1546.jpg); */
+  background-size: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  /* position: relative; */
+  flex-direction: row-reverse;
+}
+.p_snake {
+  /* position: absolute; */
+  font-size: 20px;
+}
+
+.content_p {
+  margin-left: 25px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.p_pause {
+  position: absolute;
+  /* margin: center !important; */
+  margin-left: -150px;
+  margin-top: 200px;
+  font-size: 86px;
+}
+.p_text {
+  margin: 5px;
+}
